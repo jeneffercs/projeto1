@@ -7,11 +7,13 @@
 body {
     background-color: rgb(250, 250, 250);
     
+    
 }
 
 .container{
     width: 100%;
     height: auto;
+    text-align: center;
     
 }
 
@@ -31,17 +33,19 @@ nav{
     display: inline-block;
     font-weight: bold;
     
+    
 }
 
 .navlink{
     text-decoration: none;
-    padding-right: 30px;
+    padding-right: 50px;
     color: black;
 }
 
 nav ul li a:hover{
-    background-color: aquamarine;
+    background-color: #FFF;
     padding:10px;
+    border-radius: 30px;
 }
 
 
@@ -49,6 +53,13 @@ nav ul li a:hover{
 
 
 /* final css nav */
+main{
+    float: left;
+    margin-top: 90px;
+    text-align: center;
+    width: 100%;
+}
+
 
 img {
     width: 600px;
@@ -60,7 +71,9 @@ img {
 
 footer{
     width: 100%;
-    height: 60px;
+    height: 100px;
     float: left;
+    text-align: center;
+    background-color: rgb(117, 117, 34);
 }
 
